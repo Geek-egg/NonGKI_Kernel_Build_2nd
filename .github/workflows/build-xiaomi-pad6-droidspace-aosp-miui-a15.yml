@@ -1,4 +1,4 @@
-name: Build Xiaomi Pad6 AOSP MIUI Android 15 Kernel
+name: Build Xiaomi Droidspace Pad6 AOSP MIUI Android 15 Kernel
 
 on:
   workflow_call:
