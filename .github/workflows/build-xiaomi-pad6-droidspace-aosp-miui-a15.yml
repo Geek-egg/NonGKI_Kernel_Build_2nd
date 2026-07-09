@@ -1,5 +1,4 @@
-name: Build Xiaomi Pad6 AOSP MIUI Android 15 Kernel
-
+name: Build Xiaomi Pad 6 Android 15 Kernel (AOSP/MIUI) with Droidspaces
 on:
   workflow_call:
   workflow_dispatch:
@@ -63,7 +62,7 @@ env:
   SUSFS_PATCH_FIXED: "susfs_fixed_n0_staging" # Fill in your patches here. If there are multiple patches, please separate them with a comma. Leave it blank if there isn't one. -> patch1,patch2
 
   REKERNEL_ENABLE: "true" # if u need Re:Kernel.
-  DROIDSPACES_ENABLE: "false" # if u need Droidspaces or LXC/Docker.
+  DROIDSPACES_ENABLE: "true" # if u need Droidspaces or LXC/Docker.
 
   HOOK_METHOD: "syscall" # Manual hook method -> syscall.
 
